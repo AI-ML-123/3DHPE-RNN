@@ -31,6 +31,9 @@
 
 •	output.py: It generates a sequence of 3D poses from a sequence of 2D poses.
 
+Download the data from 
+
+https://drive.google.com/drive/folders/1HBGmdk9UyeOXKgqnt82GiP43SDIWcHc-?usp=sharing
 
 
 # Training the model from scratch
