@@ -3,7 +3,7 @@
 
 
 
-Requirements
+# Requirements
 
 •	TensorFlow 1.0 or later
 
@@ -15,7 +15,7 @@ Requirements
 
 
 
-The repository contains 7 python files
+# The repository contains 7 python files
 
 •	cam.py: It loads the information of the cameras of Human3.6M dataset
 
@@ -33,7 +33,7 @@ The repository contains 7 python files
 
 
 
-Training the model from scratch
+# Training the model from scratch
 
 For training the model from scratch use the command:
 
@@ -41,7 +41,7 @@ Python train.py --use_sh –camera_frame –dropout 0.5
 
 
 
-Evaluating the trained model
+# Evaluating the trained model
 
 To evaluate the trained model, use the command:
 
@@ -51,7 +51,7 @@ Here, 1798200 is passed to load which is the checkpoint point for the global ite
 
 
 
-Fine-tuning an existing model
+# Fine-tuning an existing model
 
 Command:
 
@@ -59,7 +59,7 @@ Python train.py –use_sh –camera_frame –dropout 0.5 –load 1798200
 
 
 
-Create 3D poses from a sequence of 2D poses
+# Create 3D poses from a sequence of 2D poses
 
 Command:
 
